@@ -1,0 +1,102 @@
+//using System;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        // For loop to print numbers from 0 to 4
+//        for (int count = 0; count < 5; count++)
+//        {
+//            Console.WriteLine("Count is: " + count);
+//        }
+//        Console.ReadLine();
+//    }
+//}
+
+
+
+
+//using System;
+//namespace loop
+//{
+//    class ForLoop
+//    {
+//        public static void Main(string[] args)
+//        {
+//                for (int a=14; a>5; a--)
+//            {
+//Console.WriteLine("C# fOR lOOP: Iteration {0}", a);
+//            }
+//            Console.ReadLine();
+//        }
+//    }
+//}
+
+
+//Nested Loops
+//using System;
+
+//namespace Loop
+//{
+//    class ForLoop
+//    {
+//        public static void Main(string[] args)
+//        {
+//            // Outer loop: b goes from 1000 to 9999
+//            for (int b = 1000; b < 10000; b++)
+//            {
+//                // Inner loop: c goes from 1000 to 1005 (for demonstration)
+//                for (int c = 1000; c < 1005; c++)
+//                {
+//                    Console.WriteLine("Outer Loop (b): Iteration {0}", b);
+//                    Console.WriteLine("Inner Loop (c): Iteration {0}", c);
+//                }
+//            }
+//            Console.ReadLine();
+//        }
+//    }
+//}
+
+
+
+
+//while loop
+//    using System;
+//class program
+//{
+//    static void Main()
+//    {
+//        int count = 50;
+//        while (count >= 10)
+//        {
+//            Console.WriteLine("Count:" + count);
+//            count++;
+//        }
+//        Console.ReadLine();
+//    }
+//}
+
+//using System.Runtime.InteropServices;
+
+//do while loop
+//using System;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        int number; // Variable to store user input
+
+//        // Do-while loop to prompt the user for input
+//        do
+//        {
+//            Console.Write("Please enter a number greater than 10: ");
+//            number = Convert.ToInt32(Console.ReadLine()); // Read user input and convert to integer
+//        } while (number <= 10); // Continue looping while the number is less than or equal to 10
+
+//        Console.WriteLine("Thank you! You entered: " + number); // Print the valid number
+//        Console.ReadLine(); // Wait for user input before closing the console
+//    }
+//}
+
+
